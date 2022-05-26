@@ -7,6 +7,9 @@
 # Inherit from sdm439-common
 $(call inherit-product, device/xiaomi/sdm439-common/sdm439.mk)
 
+# Board
+TARGET_BOARD_PLATFORM := sdm439
+
 # Overlays
 PRODUCT_PACKAGES += \
     xiaomi_pine_overlay \
