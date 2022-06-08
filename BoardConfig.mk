@@ -7,7 +7,7 @@
 # Inherit from common sdm439-common
 include device/xiaomi/sdm439-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/mi439
+DEVICE_PATH := device/xiaomi/Mi439
 
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := pine,olive,olivelite,olivewood,olives,mi439
